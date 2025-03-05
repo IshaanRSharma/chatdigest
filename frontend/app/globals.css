@@ -1,0 +1,38 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom base styles here */
+html, body {
+  background-color: #FEFAE0; /* Our cream background color */
+  color: #5c4935; /* Dark brown text color */
+}
+
+/* If you want to preserve some of the module-specific styling options */
+@layer components {
+  .file-upload-button {
+    @apply ml-4 px-4 py-2 bg-[#CCD5AE] text-[#7c6247] border border-[#D4A373] rounded hover:bg-[#D4A373] hover:text-[#FEFAE0] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .summarize-button {
+    @apply px-4 py-2 bg-[#D4A373] text-[#FEFAE0] rounded hover:bg-[#ba8f63] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .download-button {
+    @apply px-4 py-2 bg-[#CCD5AE] text-[#5c4935] rounded hover:bg-[#D4A373] hover:text-[#FEFAE0] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .panel {
+    @apply bg-[#E9EDC9] rounded-lg p-6 shadow border border-[#CCD5AE];
+  }
+  
+  .metrics-panel {
+    @apply flex flex-wrap gap-4 mb-4 items-center p-3 bg-[#FAEDCD] rounded border border-[#CCD5AE];
+  }
+}
+
+/* Custom styles for specific elements that might be harder to handle with pure Tailwind */
+textarea {
+  font-family: monospace;
+}
