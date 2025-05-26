@@ -3,6 +3,12 @@
 Ever lost the thread when switching between ChatGPT, Claude, or other AI assistants? ChatDigest intelligently compresses your conversation history while preserving all the crucial context, technical details, and code blocks that matter. Perfect for developers, researchers, and power users who work across multiple AI platforms.
 
 ---
+<img width="1425" alt="image" src="https://github.com/user-attachments/assets/5f6c2857-e414-4b8b-a800-79512af5774f" />
+<img width="1396" alt="image" src="https://github.com/user-attachments/assets/c3e59894-8608-4ff4-877d-c2cafe73dd71" />
+<img width="1122" alt="image" src="https://github.com/user-attachments/assets/3fc02f08-5455-4cfd-8ecf-b19d46f51dfa" />
+
+
+
 
 ## 🚀 Quick Start
 ### Prerequisites
